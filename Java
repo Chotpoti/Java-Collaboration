@@ -9,6 +9,8 @@ public class Homework {
 		System.out.println("Please enter a letter (A-B) ");
 		String gradeLetter=scanner.next();
 		
+		
+	
 		switch (gradeLetter) { //Switch use korar formula
 		
 		case "A" :
@@ -26,8 +28,10 @@ public class Homework {
 		case "E" :
 			System.out.println("Fail");
 			break;
-		
 		default:
 			System.out.println("Invalid input or use the capital letter");
 			break;
 		}
+	}
+
+}
