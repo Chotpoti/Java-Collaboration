@@ -1,0 +1,33 @@
+package firastlearningclass;
+import java.util.Scanner;
+public class Homework {
+	
+	public static void main (String[]args){
+		
+		Scanner scanner = new Scanner(System.in); // Scanner use korar formula
+		
+		System.out.println("Please enter a letter (A-B) ");
+		String gradeLetter=scanner.next();
+		
+		switch (gradeLetter) { //Switch use korar formula
+		
+		case "A" :
+			System.out.println("Excellent");
+			break;
+		case "B" :
+			System.out.println("Good");
+			break;
+		case "C" :
+			System.out.println("Average");
+			break;
+		case "D" :
+			System.out.println("Below Avereage");
+			break;
+		case "E" :
+			System.out.println("Fail");
+			break;
+		
+		default:
+			System.out.println("Invalid input or use the capital letter");
+			break;
+		}
